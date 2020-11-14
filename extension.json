@@ -9,10 +9,8 @@
     
     "main": "main.js",
     
-    "activationEvents": [
-        "onLanguage:javascript"
-    ],
-    
+    "activationEvents": [],
+
     "entitlements": {
         
     },
@@ -21,7 +19,9 @@
         "editor": [
             {
                 "title": "Delete Line using Rebound",
-                "command": "rebound-delete.reboundDelete"
+                "command": "rebound-delete.reboundDelete",
+                "when": "editorHasFocus",
+                "shortcut": "cmd-backspace"
             }
         ]
     }
