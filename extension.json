@@ -5,6 +5,7 @@
     "description": "Change Nova's CMD+Backspace to behave like Sublime Text",
     "version": "1.0",
     "categories": ["commands"],
+    "bugs": "https://github.com/aaronbushnell/nova-rebound-delete/issues",
     
     "main": "main.js",
     
