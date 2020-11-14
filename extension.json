@@ -1,0 +1,27 @@
+{
+    "identifier": "aaronbushnell.ReboundDelete",
+    "name": "Rebound Delete",
+    "organization": "Aaron Bushnell",
+    "description": "Change Nova's CMD+Backspace to behave like Sublime Text",
+    "version": "1.0",
+    "categories": ["commands"],
+    
+    "main": "main.js",
+    
+    "activationEvents": [
+        "onLanguage:javascript"
+    ],
+    
+    "entitlements": {
+        
+    },
+    
+    "commands": {
+        "editor": [
+            {
+                "title": "Delete Line using Rebound",
+                "command": "rebound-delete.reboundDelete"
+            }
+        ]
+    }
+}
