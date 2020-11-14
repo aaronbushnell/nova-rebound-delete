@@ -8,10 +8,6 @@ One of my favorite features of Sublime Text is using `CMD+Backspace` to delete t
 ## After
 <img src="https://github.com/aaronbushnell/nova-rebound-delete/raw/main/Images/after.gif">
 
-## Usage
-
-To run Rebound Delete you need to bind the `CMD+Backspace` key to **Editor → Delete Line using Rebound**
-
 ## Icon Credits
 
 Created by Makarenko Andrey from the Noun Project
